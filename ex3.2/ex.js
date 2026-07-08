@@ -1,17 +1,11 @@
 // Função de saudação
-function saudacao(nome) {
-    return "Olá, " + nome + "! Bem-vindo ao sistema.";
-}
+const saudacao = (nome) => "Olá, " + nome + "! Bem-vindo ao sistema.";
 
 // Função para verificar se o número é positivo
-function ehPositivo(numero) {
-    return numero > 0;
-}
+const ehPositivo = (numero) => numero > 0;
 
 // Função para calcular a área de um retângulo
-function calcularArea(largura, altura) {
-    return largura * altura;
-}
+const calcularArea = (largura, altura) => largura * altura;
 
 // Testes
 console.log(saudacao("Grazi"));
